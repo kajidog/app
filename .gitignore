@@ -1,0 +1,42 @@
+# 依存関係
+node_modules/
+package-lock.json
+yarn.lock
+
+# ビルド出力
+dist/
+build/
+*.zip
+
+# IDE設定
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# ログファイル
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 環境変数
+.env
+.env.local
+.env.*.local
+
+# キャッシュ
+.cache/
+.temp/
+.tmp/
+
+# テストカバレッジ
+coverage/
+
+# Chrome拡張機能の一時ファイル
+*.crx
+*.pem
